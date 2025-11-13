@@ -89,9 +89,9 @@ jobs:
             --nvdApiKey "$NVD_API_KEY" \
             || true
 
-      # -------------------------------
+      # ------------------------------
       # OTS-RSK-00037 — Socket.IO Auth Validation
-      # -------------------------------
+      # ------------------------------
       - name: 🔒 Validate Socket.IO Auth
         run: |
           echo "Checking for secure WebSocket (wss://) usage..."
