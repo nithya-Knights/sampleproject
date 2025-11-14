@@ -109,9 +109,9 @@ jobs:
             echo "✅ Token-based authentication references found.";
           fi
 
-      # -------------------------------
+      # ------------------------------
       # Summary & Artifacts
-      # -------------------------------
+      # ------------------------------
       - name: 🧾 Summary of Security Checks
         run: |
           echo "---------------------------------------------"
